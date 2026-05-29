@@ -1,0 +1,157 @@
+-- A. Create Table BOOK_INFO
+CREATE TABLE BOOK_INFO (
+    BOOK_ID INT PRIMARY KEY,
+    BOOK_NAME VARCHAR(50) NOT NULL,
+    CATEGORY VARCHAR(20),
+    PRICE INT CHECK (PRICE > 0)
+);
+
+-- Insert sample records
+INSERT INTO BOOK_INFO VALUES (201, 'Database Systems', 'CS', 4500);
+INSERT INTO BOOK_INFO VALUES (202, 'Operating Systems', 'IT', 5200);
+INSERT INTO BOOK_INFO VALUES (203, 'Python Programming', 'SE', 3900);
+INSERT INTO BOOK_INFO VALUES (204, 'Artificial Intelligence', 'AI', 6100);
+INSERT INTO BOOK_INFO VALUES (205, 'Data Structures', 'CS', 4300);
+INSERT INTO BOOK_INFO VALUES (206, 'Computer Networks', 'IT', 5000);
+
+---------------------------------------------------
+
+-- B. Alter the Table
+
+-- Add AUTHOR_NAME column
+ALTER TABLE BOOK_INFO
+ADD AUTHOR_NAME VARCHAR(30);
+
+-- Drop AUTHOR_NAME column
+ALTER TABLE BOOK_INFO
+DROP COLUMN AUTHOR_NAME;
+
+---------------------------------------------------
+
+-- C. Perform Operations
+
+-- Insert your own record
+INSERT INTO BOOK_INFO
+VALUES (207, 'Machine Learning', 'AI', 5500);
+
+-- Update PRICE of BOOK_ID 203 to 4200
+UPDATE BOOK_INFO
+SET PRICE = 4200
+WHERE BOOK_ID = 203;
+
+-- Delete record of BOOK_ID 205
+DELETE FROM BOOK_INFO
+WHERE BOOK_ID = 205;
+
+-- Save changes permanently
+COMMIT;
+
+---------------------------------------------------
+
+-- D. Write SQL Queries
+
+-- Display average PRICE category-wise
+SELECT CATEGORY, AVG(PRICE) AS AVERAGE_PRICE
+FROM BOOK_INFO
+GROUP BY CATEGORY;
+
+-- Display categories having average PRICE greater than 4500
+SELECT CATEGORY, AVG(PRICE) AS AVERAGE_PRICE
+FROM BOOK_INFO
+GROUP BY CATEGORY
+HAVING AVG(PRICE) > 4500;
+
+
+
+2nd paper 
+-- ==============================
+-- A. CREATE TABLE BOOK_INFO
+-- ==============================
+
+CREATE TABLE BOOK_INFO
+(
+    BOOK_ID INT PRIMARY KEY,
+    BOOK_NAME VARCHAR(50) NOT NULL,
+    CATEGORY VARCHAR(20),
+    PRICE DECIMAL(8,2) CHECK (PRICE > 0)
+);
+
+-- Insert sample data
+
+INSERT INTO BOOK_INFO VALUES
+(201, 'Database Systems', 'CS', 4500);
+
+INSERT INTO BOOK_INFO VALUES
+(202, 'Operating Systems', 'IT', 5200);
+
+INSERT INTO BOOK_INFO VALUES
+(203, 'Python Programming', 'SE', 3900);
+
+INSERT INTO BOOK_INFO VALUES
+(204, 'Artificial Intelligence', 'AI', 6100);
+
+INSERT INTO BOOK_INFO VALUES
+(205, 'Data Structures', 'CS', 4300);
+
+INSERT INTO BOOK_INFO VALUES
+(206, 'Computer Networks', 'IT', 5000);
+
+
+-- ==============================
+-- B. ALTER THE TABLE
+-- ==============================
+
+-- Add AUTHOR_NAME column
+
+ALTER TABLE BOOK_INFO
+ADD AUTHOR_NAME VARCHAR(30);
+
+-- Drop AUTHOR_NAME column
+
+ALTER TABLE BOOK_INFO
+DROP COLUMN AUTHOR_NAME;
+
+
+-- ==============================
+-- C. PERFORM OPERATIONS
+-- ==============================
+
+-- Insert your own new book record
+
+INSERT INTO BOOK_INFO VALUES
+(207, 'Machine Learning', 'AI', 5500);
+
+-- Update PRICE of BOOK_ID 203 to 4200
+
+UPDATE BOOK_INFO
+SET PRICE = 4200
+WHERE BOOK_ID = 203;
+
+-- Delete record of BOOK_ID 205
+
+DELETE FROM BOOK_INFO
+WHERE BOOK_ID = 205;
+
+-- Save all changes permanently
+
+COMMIT;
+
+
+-- ==============================
+-- D. WRITE SQL QUERIES
+-- ==============================
+
+-- Display average PRICE category-wise
+
+SELECT CATEGORY,
+       AVG(PRICE) AS AVERAGE_PRICE
+FROM BOOK_INFO
+GROUP BY CATEGORY;
+
+-- Display categories having average PRICE greater than 4500
+
+SELECT CATEGORY,
+       AVG(PRICE) AS AVERAGE_PRICE
+FROM BOOK_INFO
+GROUP BY CATEGORY
+HAVING AVG(PRICE) > 4500;

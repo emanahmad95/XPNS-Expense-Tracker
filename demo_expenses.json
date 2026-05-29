@@ -1,0 +1,394 @@
+[
+    {
+        "id": 1779292518753,
+        "description": "Chicken Biryani",
+        "amount": 450.0,
+        "category": "Food",
+        "date": "2025-05-01"
+    },
+    {
+        "id": 1779292518761,
+        "description": "Uber to airport",
+        "amount": 1200.0,
+        "category": "Transport",
+        "date": "2025-05-02"
+    },
+    {
+        "id": 1779292518765,
+        "description": "Python textbook",
+        "amount": 850.0,
+        "category": "Education",
+        "date": "2025-05-03"
+    },
+    {
+        "id": 1779292518770,
+        "description": "Netflix",
+        "amount": 300.0,
+        "category": "Entertainment",
+        "date": "2025-05-03"
+    },
+    {
+        "id": 1779292518772,
+        "description": "Electricity bill",
+        "amount": 2500.0,
+        "category": "Utilities",
+        "date": "2025-05-04"
+    },
+    {
+        "id": 1779292518781,
+        "description": "Panadol",
+        "amount": 120.0,
+        "category": "Health",
+        "date": "2025-05-05"
+    },
+    {
+        "id": 1779292518912,
+        "description": "Coffee",
+        "amount": 200.0,
+        "category": "Food",
+        "date": "2025-05-10"
+    },
+    {
+        "id": 1779292569275,
+        "description": "Chicken Biryani",
+        "amount": 450.0,
+        "category": "Food",
+        "date": "2025-05-01"
+    },
+    {
+        "id": 1779292569276,
+        "description": "Uber to airport",
+        "amount": 1200.0,
+        "category": "Transport",
+        "date": "2025-05-02"
+    },
+    {
+        "id": 1779292569277,
+        "description": "Python textbook",
+        "amount": 850.0,
+        "category": "Education",
+        "date": "2025-05-03"
+    },
+    {
+        "id": 1779292569277,
+        "description": "Netflix",
+        "amount": 300.0,
+        "category": "Entertainment",
+        "date": "2025-05-03"
+    },
+    {
+        "id": 1779292569278,
+        "description": "Electricity bill",
+        "amount": 2500.0,
+        "category": "Utilities",
+        "date": "2025-05-04"
+    },
+    {
+        "id": 1779292569279,
+        "description": "Panadol",
+        "amount": 120.0,
+        "category": "Health",
+        "date": "2025-05-05"
+    },
+    {
+        "id": 1779292569322,
+        "description": "Coffee",
+        "amount": 200.0,
+        "category": "Food",
+        "date": "2025-05-10"
+    },
+    {
+        "id": 1779292606413,
+        "description": "Chicken Biryani",
+        "amount": 450.0,
+        "category": "Food",
+        "date": "2025-05-01"
+    },
+    {
+        "id": 1779292606414,
+        "description": "Uber to airport",
+        "amount": 1200.0,
+        "category": "Transport",
+        "date": "2025-05-02"
+    },
+    {
+        "id": 1779292606416,
+        "description": "Python textbook",
+        "amount": 850.0,
+        "category": "Education",
+        "date": "2025-05-03"
+    },
+    {
+        "id": 1779292606417,
+        "description": "Netflix",
+        "amount": 300.0,
+        "category": "Entertainment",
+        "date": "2025-05-03"
+    },
+    {
+        "id": 1779292606418,
+        "description": "Electricity bill",
+        "amount": 2500.0,
+        "category": "Utilities",
+        "date": "2025-05-04"
+    },
+    {
+        "id": 1779292606419,
+        "description": "Panadol",
+        "amount": 120.0,
+        "category": "Health",
+        "date": "2025-05-05"
+    },
+    {
+        "id": 1779292606468,
+        "description": "Coffee",
+        "amount": 200.0,
+        "category": "Food",
+        "date": "2025-05-10"
+    },
+    {
+        "id": 1779293010983,
+        "description": "Chicken Biryani",
+        "amount": 450.0,
+        "category": "Food",
+        "date": "2025-05-01"
+    },
+    {
+        "id": 1779293010985,
+        "description": "Uber to airport",
+        "amount": 1200.0,
+        "category": "Transport",
+        "date": "2025-05-02"
+    },
+    {
+        "id": 1779293010987,
+        "description": "Python textbook",
+        "amount": 850.0,
+        "category": "Education",
+        "date": "2025-05-03"
+    },
+    {
+        "id": 1779293010988,
+        "description": "Netflix",
+        "amount": 300.0,
+        "category": "Entertainment",
+        "date": "2025-05-03"
+    },
+    {
+        "id": 1779293010990,
+        "description": "Electricity bill",
+        "amount": 2500.0,
+        "category": "Utilities",
+        "date": "2025-05-04"
+    },
+    {
+        "id": 1779293010992,
+        "description": "Panadol",
+        "amount": 120.0,
+        "category": "Health",
+        "date": "2025-05-05"
+    },
+    {
+        "id": 1779293011066,
+        "description": "Coffee",
+        "amount": 200.0,
+        "category": "Food",
+        "date": "2025-05-10"
+    },
+    {
+        "id": 1779293029275,
+        "description": "Chicken Biryani",
+        "amount": 450.0,
+        "category": "Food",
+        "date": "2025-05-01"
+    },
+    {
+        "id": 1779293029276,
+        "description": "Uber to airport",
+        "amount": 1200.0,
+        "category": "Transport",
+        "date": "2025-05-02"
+    },
+    {
+        "id": 1779293029277,
+        "description": "Python textbook",
+        "amount": 850.0,
+        "category": "Education",
+        "date": "2025-05-03"
+    },
+    {
+        "id": 1779293029278,
+        "description": "Netflix",
+        "amount": 300.0,
+        "category": "Entertainment",
+        "date": "2025-05-03"
+    },
+    {
+        "id": 1779293029279,
+        "description": "Electricity bill",
+        "amount": 2500.0,
+        "category": "Utilities",
+        "date": "2025-05-04"
+    },
+    {
+        "id": 1779293029280,
+        "description": "Panadol",
+        "amount": 120.0,
+        "category": "Health",
+        "date": "2025-05-05"
+    },
+    {
+        "id": 1779293029328,
+        "description": "Coffee",
+        "amount": 200.0,
+        "category": "Food",
+        "date": "2025-05-10"
+    },
+    {
+        "id": 1779294075197,
+        "description": "Chicken Biryani",
+        "amount": 450.0,
+        "category": "Food",
+        "date": "2025-05-01"
+    },
+    {
+        "id": 1779294075203,
+        "description": "Uber to airport",
+        "amount": 1200.0,
+        "category": "Transport",
+        "date": "2025-05-02"
+    },
+    {
+        "id": 1779294075204,
+        "description": "Python textbook",
+        "amount": 850.0,
+        "category": "Education",
+        "date": "2025-05-03"
+    },
+    {
+        "id": 1779294075206,
+        "description": "Netflix",
+        "amount": 300.0,
+        "category": "Entertainment",
+        "date": "2025-05-03"
+    },
+    {
+        "id": 1779294075209,
+        "description": "Electricity bill",
+        "amount": 2500.0,
+        "category": "Utilities",
+        "date": "2025-05-04"
+    },
+    {
+        "id": 1779294075212,
+        "description": "Panadol",
+        "amount": 120.0,
+        "category": "Health",
+        "date": "2025-05-05"
+    },
+    {
+        "id": 1779294075288,
+        "description": "Coffee",
+        "amount": 200.0,
+        "category": "Food",
+        "date": "2025-05-10"
+    },
+    {
+        "id": 1779294164389,
+        "description": "Chicken Biryani",
+        "amount": 450.0,
+        "category": "Food",
+        "date": "2025-05-01"
+    },
+    {
+        "id": 1779294164391,
+        "description": "Uber to airport",
+        "amount": 1200.0,
+        "category": "Transport",
+        "date": "2025-05-02"
+    },
+    {
+        "id": 1779294164392,
+        "description": "Python textbook",
+        "amount": 850.0,
+        "category": "Education",
+        "date": "2025-05-03"
+    },
+    {
+        "id": 1779294164393,
+        "description": "Netflix",
+        "amount": 300.0,
+        "category": "Entertainment",
+        "date": "2025-05-03"
+    },
+    {
+        "id": 1779294164394,
+        "description": "Electricity bill",
+        "amount": 2500.0,
+        "category": "Utilities",
+        "date": "2025-05-04"
+    },
+    {
+        "id": 1779294164395,
+        "description": "Panadol",
+        "amount": 120.0,
+        "category": "Health",
+        "date": "2025-05-05"
+    },
+    {
+        "id": 1779294164441,
+        "description": "Coffee",
+        "amount": 200.0,
+        "category": "Food",
+        "date": "2025-05-10"
+    },
+    {
+        "id": 1779297390441,
+        "description": "Chicken Biryani",
+        "amount": 450.0,
+        "category": "Food",
+        "date": "2025-05-01"
+    },
+    {
+        "id": 1779297390445,
+        "description": "Uber to airport",
+        "amount": 1200.0,
+        "category": "Transport",
+        "date": "2025-05-02"
+    },
+    {
+        "id": 1779297390447,
+        "description": "Python textbook",
+        "amount": 850.0,
+        "category": "Education",
+        "date": "2025-05-03"
+    },
+    {
+        "id": 1779297390448,
+        "description": "Netflix",
+        "amount": 300.0,
+        "category": "Entertainment",
+        "date": "2025-05-03"
+    },
+    {
+        "id": 1779297390450,
+        "description": "Electricity bill",
+        "amount": 2500.0,
+        "category": "Utilities",
+        "date": "2025-05-04"
+    },
+    {
+        "id": 1779297390453,
+        "description": "Panadol",
+        "amount": 120.0,
+        "category": "Health",
+        "date": "2025-05-05"
+    },
+    {
+        "id": 1779297390550,
+        "description": "Coffee",
+        "amount": 200.0,
+        "category": "Food",
+        "date": "2025-05-10"
+    }
+]
