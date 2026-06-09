@@ -114,7 +114,7 @@ Food · Transport · Shopping · Health · Education · Utilities · Entertainme
 
 ---
 
-![XPNS-Tracker](Dashboard.png)
+![XPNS-Tracker](Dashboard.jpeg)
 
 ## 👤 Author
 
